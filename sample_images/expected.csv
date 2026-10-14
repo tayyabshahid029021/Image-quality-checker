@@ -1,0 +1,13 @@
+filename,expected
+01_sharp_good.jpg,PASS
+02_sharp_high_res.jpg,PASS
+03_slight_blur.jpg,WARNING
+04_medium_blur.jpg,FAIL
+05_heavy_blur.jpg,FAIL
+06_slightly_dark.jpg,WARNING
+07_very_dark.jpg,FAIL
+08_overexposed.jpg,FAIL
+09_tiny_resolution.jpg,FAIL
+10_borderline_resolution.jpg,WARNING
+11_low_contrast.jpg,FAIL
+12_dark_mode_screenshot.png,PASS
