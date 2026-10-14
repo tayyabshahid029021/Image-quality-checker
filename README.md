@@ -4,7 +4,7 @@ A small Streamlit tool that warns when an image is too poor for text extraction 
 
 Upload an image and the tool checks **blur**, **brightness** and **resolution**. Each check gives a **PASS**, **WARNING** or **FAIL** with a plain reason, and the overall result is the worst of the three.
 
-**Live app:** https://your-app-name.streamlit.app
+**Live app:** https://image-quality-checker-o9sipfu7bxc8jmynvntedn.streamlit.app/
 
 ## What it does
 
@@ -21,7 +21,7 @@ Only Pillow and NumPy are used for the checks (no OpenCV), so the app installs f
 ## Setup
 
 ```
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+git clone https://github.com/tayyabshahid029021/Image-quality-checker.git
 cd YOUR_REPO
 python3 -m venv venv
 source venv/bin/activate
